@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.meme-generator{
+    text-align: center;
+    margin: 2px 30px ;
+    border: 10px dashed rgb(52, 124, 52);
+
+}
+ .generate-meme-btn{
+    padding: 8px 20px;
+    border: none;
+    border: 4px solid #222;
+    border-radius: 20px;
+   
+    margin: 21px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #e9d3d3;
+    transition: all 400ms ease;
+    color: rgb(18, 50, 230);
+
+}
+
+.generate-meme-btn:hover{
+   
+    border-left: 10px solid #222;
+    border-right: 10px solid #222;   
+    letter-spacing: 1px;
+}
+.meme-generator img{
+    height: 421px;
+    object-fit: cover;
+    width: fit-content;
+
+}
+h2{
+    margin-top: 10px;
+
+}
+
+.meme-author{
+    margin: 8px;
+
+}
+@media screen {
+    
+}
